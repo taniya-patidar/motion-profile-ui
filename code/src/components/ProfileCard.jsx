@@ -1,34 +1,32 @@
-import img from "../assets/Girl.webp";
-import {motion} from "motion/react";
+import { motion } from "framer-motion";
 
-const ProfileCard = ({ onClick }) => {
+const ProfileCard = ({ name, img, onClick }) => {
   return (
-    <motion.div onClick={onClick} whileHover={{scale:1.03, y:-5}}
-    whileTap={{scale:0.97}}
-    transition={{type:"spring",
-      stiffness:300,
-      damping:18
-    }} 
-    className="bg-white/80 backdrop-blur-md rounded-2x1 shadow-[0_10px_30px_rgba(255,140,0,0.15)]  p-5 cursor-pointer">
+    <motion.div
+      onClick={onClick}
+      whileHover={{ scale: 1.03, y: -5 }}
+      whileTap={{ scale: 0.97 }}
+      transition={{ type: "spring", stiffness: 300, damping: 18 }}
+      className="bg-white/80 backdrop-blur-md rounded-2xl shadow-[0_10px_30px_rgba(255,140,0,0.15)] p-5 cursor-pointer"
+    >
       <motion.img
-      whileHover={{scale:1.09}}
-      transition={{duration:0.3}}
+        whileHover={{ scale: 1.09 }}
+        transition={{ duration: 0.3 }}
         src={img}
         alt="profile"
-        className="w-42 h-42 object-cover  rounded-full mx-auto shadow-md"
+        className="w-42 h-42 object-cover rounded-full mx-auto shadow-md"
       />
 
       <div className="mt-4 text-center">
         <h2 className="text-lg font-semibold text-gray-800">
-          Rahul The Foodie
+          {name}
         </h2>
 
-        <motion.span 
-        animate={{ scale:[1, 1.3,1]}}
-        transition={{ repeat:Infinity,
-          duration:4
-        }}
-        className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-xs mt-2">
+        <motion.span
+          animate={{ scale: [1, 1.3, 1] }}
+          transition={{ repeat: Infinity, duration: 4 }}
+          className="inline-block bg-orange-500 text-white px-3 py-1 rounded-full text-xs mt-2"
+        >
           95% match
         </motion.span>
 
@@ -47,7 +45,6 @@ const ProfileCard = ({ onClick }) => {
         <p className="text-sm text-gray-500 mt-3">
           12k Followers | High Reach
         </p>
-
       </div>
     </motion.div>
   );
