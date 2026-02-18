@@ -90,7 +90,9 @@ function App() {
                 </h2>
 
                 <p className="text-gray-500 mt-2">
-                  Yaha detailed information aayegi.
+                  NAme: xxxxx <br />
+                  Detail:bhopal, M.P <br />
+                  contact: 88877xxxx <br />
                 </p>
 
                 <button
