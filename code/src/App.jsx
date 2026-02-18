@@ -3,7 +3,7 @@ import ProfileCard from "./components/ProfileCard";
 import { AnimatePresence, motion } from "framer-motion";
 import "./App.css";
 import girl1 from "./assets/Girl.webp";
-// import girl2 from "./assets/Girl2.webp";
+import girl2 from "./assets/Girl1.webp";
 // import girl3 from "./assets/Girl3.webp";
 // import girl4 from "./assets/Girl4.webp";
 // import girl5 from "./assets/Girl5.webp";
@@ -23,7 +23,7 @@ function App() {
     {
       id: 2,
       name: "Aisha Explorer",
-      img: girl1,
+      img: girl2,
       detail: "Travel Influencer from Delhi",
       contact: "888772222",
     },
