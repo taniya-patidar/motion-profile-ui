@@ -2,11 +2,11 @@ import { useState } from "react";
 import ProfileCard from "./components/ProfileCard";
 import { AnimatePresence, motion } from "framer-motion";
 import "./App.css";
-import girl1 from "./assets/Girl.webp";
+// import girl1 from "./assets/Girl.webp";
 import girl2 from "./assets/Girl1.avif";
-// import girl3 from "./assets/Girl3.webp";
-// import girl4 from "./assets/Girl4.webp";
-// import girl5 from "./assets/Girl5.webp";
+import girl3 from "./assets/Girl3.jpg";
+import girl4 from "./assets/Girl4.jpg";
+import girl5 from "./assets/Girl5.jpg";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,35 +16,35 @@ function App() {
     {
       id: 1,
       name: "Rahul The Foodie",
-      img: girl1,
+      img: girl5,
       detail: "Food Blogger from Bhopal",
       contact: "888771111",
     },
     {
       id: 2,
       name: "Aisha Explorer",
-      img: girl2,
+      img: girl4,
       detail: "Travel Influencer from Delhi",
       contact: "888772222",
     },
     {
       id: 3,
       name: "Dev Techie",
-      img: girl1,
+      img: girl2,
       detail: "Software Developer from Indore",
       contact: "888773333",
     },
     {
       id: 4,
       name: "Maya Artist",
-      img: girl1,
+      img: girl3,
       detail: "Digital Artist from Mumbai",
       contact: "888774444",
     },
     {
       id: 5,
       name: "Kabir Creator",
-      img: girl1,
+      img: girl5,
       detail: "Content Creator from Pune",
       contact: "888775555",
     },
