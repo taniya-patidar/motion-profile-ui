@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* body{
+  background: #f8f3ec;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* .container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 320px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.content {
+  padding: 15px;
+}
+
+.badge {
+  background: orange;
+  /* width: 55px;
+  height: 55px; */
+  /* padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+} */ 
+
+/* .tags span {
+  background: #eee;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.baby{
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: 3px solid black;
+} */
